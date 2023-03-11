@@ -65,8 +65,8 @@ export default function Header() {
                 <img
                   onClick={handleClick}
                   aria-controls={open ? "account-menu" : undefined}
-                  aria-haspopup="true"
-                  aria-expanded={open ? "true" : undefined}
+                  // aria-haspopup="true"
+                  // aria-expanded={open ? "true" : undefined}
                   src="https://i.pinimg.com/originals/12/6f/e8/126fe8d3dbb0d7dc4c5da8f0c5608003.jpg"
                   alt="profile_pic"
                   className="w-16 h-16 rounded-full cursor-pointer"
