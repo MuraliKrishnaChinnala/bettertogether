@@ -4,7 +4,7 @@ import "./EventCard.css"
 
 export default function EventCard({ details }) {
   return (
-    <div className="bg-white rounded-[20px] w-[393px] min-h-[400px] transition duration-150 event_container cursor-pointer">
+    <div className="bg-white rounded-[20px] scale-100 hover:scale-150 w-[393px] min-h-[400px] transition duration-150 event_container cursor-pointer">
       <img
         src={details?.eventImage}
         alt="event"

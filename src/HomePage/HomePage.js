@@ -32,7 +32,7 @@ export default function HomePage() {
           />
         </div>
         <div className="bg-white w-[480px] h-[300px] py-10 px-[50px] text-[#001936] left-[583px] top-16 rounded-2xl absolute">
-          <h1 className="mb-5 text-4xl font-bold">
+          <h1 className="text-4xl font-bold">
             Our Choices Shape the World We Live In
           </h1>
           <p className="mb-5 text-xl font-semibold">
@@ -42,7 +42,7 @@ export default function HomePage() {
             <input
               type="search"
               placeholder="Search by city or cause"
-              className="w-full pl-3"
+              className="w-full h-full pl-3 rounded-md focus:outline-none"
             />
             <button
               type="button"
@@ -85,8 +85,8 @@ export default function HomePage() {
           return <EventCard key={i} details={item} />;
         })}
       </div>
-      <div className="mt-10 mx-[220px]">
-        <h1 className="text-4xl font-bold">The Campaign in Frames</h1>
+      <div className="my-10 mx-[220px]">
+        <h1 className="mb-6 text-4xl font-bold">The Campaign in Frames</h1>
         <section class="overflow-hidden text-neutral-700">
           <div class="container py-2 lg:pt-10">
             <div class="-m-1 flex flex-wrap md:-m-2">
@@ -140,7 +140,7 @@ export default function HomePage() {
           </div>
         </section>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
